@@ -9,6 +9,11 @@ $(call inherit-product, device/xiaomi/lisa/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+MISTOS_MAINTAINER := LazyDev-Ak
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+
+
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lisa
 PRODUCT_MANUFACTURER := Xiaomi
