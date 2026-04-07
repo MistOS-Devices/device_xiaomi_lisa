@@ -16,6 +16,9 @@ TARGET_BOOTLOADER_BOARD_NAME := lisa
 
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/lisa_QGKI.config
+TARGET_KERNEL_CLANG_PATH := prebuilts/clang/host/linux-x86/zyc/bin
+TARGET_KERNEL_CLANG_COMPILE := true
+TARGET_KERNEL_MAKE_ENV += PATH=$(abspath prebuilts/clang/host/linux-x86/zyc/bin):$$PATH
 
 # Kernel modules
 BOOT_KERNEL_MODULES := \
