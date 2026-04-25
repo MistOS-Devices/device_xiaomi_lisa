@@ -8,6 +8,6 @@
     "repository": "lazyDev-ak/android_prebuilts_clang_host_linux-x86_zyc",
     "target_path": "prebuilts/clang/host/linux-x86/zyc",
     "branch": "main",
-    "remote": "github-non-los"
+    "remote": "github"
   }
 ]
