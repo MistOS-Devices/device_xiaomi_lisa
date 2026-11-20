@@ -11,8 +11,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Mist
 MISTOS_MAINTAINER := LazyDev-Ak
-WITH_GMS := true
-TARGET_USES_MINI_GAPPS := true
+#WITH_GMS := true
+#TARGET_USES_MINI_GAPPS := true
 
 
 PRODUCT_BRAND := Xiaomi
